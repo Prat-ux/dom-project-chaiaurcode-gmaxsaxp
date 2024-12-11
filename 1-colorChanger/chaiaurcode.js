@@ -18,5 +18,8 @@ buttons.forEach(function (button) {
     else if(e.target.id === 'blue'){
       body.style.backgroundColor= e.target.id
     }
+    else if(e.target.id === 'purple'){
+      body.style.backgroundColor= e.target.id
+    }
   });
 });
